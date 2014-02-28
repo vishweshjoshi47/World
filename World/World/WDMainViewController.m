@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     NSLog(@"Hello World");
+    NSLog(@"For stash");
     // Do any additional setup after loading the view from its nib.
 }
 
