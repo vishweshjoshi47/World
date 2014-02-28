@@ -19,6 +19,8 @@
 		70A18BE518C08A7B00D7827B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A18BCD18C08A7B00D7827B /* UIKit.framework */; };
 		70A18BED18C08A7B00D7827B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70A18BEB18C08A7B00D7827B /* InfoPlist.strings */; };
 		70A18BEF18C08A7B00D7827B /* WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A18BEE18C08A7B00D7827B /* WorldTests.m */; };
+		70A18BFB18C08B1200D7827B /* WDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A18BF918C08B1200D7827B /* WDMainViewController.m */; };
+		70A18BFC18C08B1200D7827B /* WDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70A18BFA18C08B1200D7827B /* WDMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		70A18BEA18C08A7B00D7827B /* WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldTests-Info.plist"; sourceTree = "<group>"; };
 		70A18BEC18C08A7B00D7827B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70A18BEE18C08A7B00D7827B /* WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldTests.m; sourceTree = "<group>"; };
+		70A18BF818C08B1200D7827B /* WDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMainViewController.h; sourceTree = "<group>"; };
+		70A18BF918C08B1200D7827B /* WDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMainViewController.m; sourceTree = "<group>"; };
+		70A18BFA18C08B1200D7827B /* WDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				70A18BD818C08A7B00D7827B /* WDAppDelegate.h */,
 				70A18BD918C08A7B00D7827B /* WDAppDelegate.m */,
+				70A18BF818C08B1200D7827B /* WDMainViewController.h */,
+				70A18BF918C08B1200D7827B /* WDMainViewController.m */,
+				70A18BFA18C08B1200D7827B /* WDMainViewController.xib */,
 				70A18BDB18C08A7B00D7827B /* Images.xcassets */,
 				70A18BD018C08A7B00D7827B /* Supporting Files */,
 			);
@@ -222,6 +230,7 @@
 			files = (
 				70A18BD418C08A7B00D7827B /* InfoPlist.strings in Resources */,
 				70A18BDC18C08A7B00D7827B /* Images.xcassets in Resources */,
+				70A18BFC18C08B1200D7827B /* WDMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +251,7 @@
 			files = (
 				70A18BD618C08A7B00D7827B /* main.m in Sources */,
 				70A18BDA18C08A7B00D7827B /* WDAppDelegate.m in Sources */,
+				70A18BFB18C08B1200D7827B /* WDMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
